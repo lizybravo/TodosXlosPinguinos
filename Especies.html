@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodosXlosPinguinos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--nav bar-->
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-md">
+          <a class="navbar-brand" href="index.html">Todos X los Pingüinos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Especies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Especies.html#emperador">Pingüino Emperador (Aptenodytes forsteri)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#rey">Pingüino Rey (Aptenodytes patagonicus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#adelia">Pingüino de Adelia (Pygoscelis adeliae)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#barbijo">Pingüino Barbijo (Pygoscelis antarctica)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#papua">Pingüino Gentoo o Papúa (Pygoscelis papua)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#magallanes">Pingüino de Magallanes (Spheniscus magellanicus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#humboldt">Pingüino de Humboldt (Spheniscus humboldti)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#galapagos">Pingüino de las Galápagos (Spheniscus mendiculus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#ojosAmarillos">Pingüino de Ojos Amarillos (Megadyptes antipodes)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#macaroni">Pingüino Macaroni (Eudyptes chrysolophus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#real">Pingüino Real (Eudyptes schlegeli)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#fiordo">Pingüino de Fiordland (Eudyptes pachyrhynchus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#sur">Pingüino de Penacho Amarillo del sur (Eudyptes chrysocome)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#norte">Pingüino de Penacho Amarillo del norte (Eudyptes moseleyi)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#africano">Pingüino Africano (Spheniscus demersus)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#cresta">Pingüino de Cresta Erguida (Eudyptes sclateri)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#azul">Pingüino Azul (Eudyptula minor)</a></li>
+                        <li><a class="dropdown-item" href="Especies.html#snares">Pingüino de Snares (Eudyptes robustus)</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Especies.html">Ver todas</a></li>
+                      </ul>
+                    </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Conservacion.html">Cómo ayudar</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="Test.html">Haz el Test</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<div id="paginaEspecies">
+    <!--
+    Informacion general
+-->
+<div  class="container">
+    <h2>Lo que no conocías sobre la vida de los pingüinos</h2>
+    <div id="vidaPing">
+        <p>
+            Los pingüinos son aves muy adaptadas al mundo marino debido a la aerodinámica de su cuerpo compuesto por las alas en forma de aleta, utilizadas para remar, la cola corta y sus patas, que sirven de timón y los mantiene erguidos en tierra firme.
+        </p>
+        <p>
+            Este vertebrado de sangre caliente es la única especie de ave del tipo Spheniscidae. Si bien posee extremidades con forma de alas y un cuerpo cubierto de plumas, GPS afirma que el pingüino es un ave única en su tipo debido a que las 18 especies que existen comparten dos características principales: son marinas y no vuelan.
+        </p>
+        <p>
+            Hace millones de años atrás, el hemisferio sur no tenía grandes predadores terrestres como sí los tenía el hemisferio norte. Esto favoreció la evolución de aves no voladoras como el pingüino y el cormorán áptero (Phalacrocorax harrisi), que tiene alas muy reducidas y que habita en las islas Galápagos, Ecuador; o el pato vapor de cabeza blanca (Tachyeres leucocephalus), que vive en Chubut, Argentina. 
+        </p>
+        <p>
+            Estos animales pueden observarse en las costas e islas por debajo de la Línea del Ecuador, en el hemisferio sur del continente africano, América, Antártida, Australia e incluso Nueva Zelanda. Es importante aclarar que se encuentran en tierra firme principalmente al momento de aparearse y criar sus huevos durante meses. Sin embargo, la Global Penguin Society indica que el 80% de su vida se desarrolla en el mar.
+        </p>
+        <p>
+            Si bien, estas aves no habitan en México ni en gran parte de algunos países, pues solo viven en el hemisferio sur, son parte de la biodiversidad y por desgracia algunas especies están en peligro de extinción. Así, se vuelve vital para su conservación el conocer cómo se les está ayudando y cómo podemos apoyarles.
+    
+            Y es que los pingüinos tienen un rol ecológico importante en los océanos y también en la conservación de hábitats de otras especies. 
+    
+            La investigación de la ecología de los pingüinos ofrece una oportunidad excepcional para detectar los cambios que se producen en el océano austral, valorarlos y proponer medidas de conservación. Por ello la Convención para la Conservación de los Recursos Vivos Antárticos, que regula la explotación pesquera en el área, considera estas especies de especial relevancia para la toma de decisiones en relación a los cupos de pesca de krill y para el diseño de las áreas marinas protegidas en la región.
+        </p>
+    </div>
+</div>
+    <!--Gallery-->
+    <section id="especies" class="container">
+        <h2>Conoce las diferentes especies de pingüinos</h2>
+        <div id="emperador" class="container">
+            <div  class="row nombrePinguino">
+                <div class="col">
+                    <img src="Imagenes/especies/Emperador.png"  alt="Pinguino emperador foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Emperador (<em>Aptenodytes forsteri</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino emperador (<em>Aptenodytes forsteri</em>) es una especie de ave esfenisciforme de la familia Spheniscidae.
+
+Esta especie, endémica de la Antártida, es la de mayor tamaño y peso de todos los pingüinos. El macho y la hembra son similares en plumaje y tamaño; pueden superar los 120 cm de altura y pesan entre 20 y 45 kg. La espalda, las alas y la cabeza son de color negro; la parte anterior es blanca desde las patas hasta el vientre, con el pecho de un tono amarillo pálido y dos auriculares a la altura de los oídos de un llamativo amarillo brillante. Como todos los pingüinos, no puede volar, pero tiene unas alas rígidas y planas, y un cuerpo hidrodinámico particularmente adaptado al hábitat marino.
+
+Su dieta está compuesta principalmente de peces, pero también puede incluir crustáceos como el kril y cefalópodos como el calamar. Mientras caza puede permanecer sumergido hasta dieciocho minutos, buceando a una profundidad de más de quinientos metros. Ha desarrollado diversas adaptaciones para facilitar esta tarea, como una hemoglobina con una estructura que le permite trabajar eficazmente con un bajo nivel de oxígeno, unos huesos sólidos para reducir el barotraumatismo y la capacidad de retardar su metabolismo y pausar las funciones de órganos no esenciales.
+
+El pingüino emperador es conocido principalmente por el singular ciclo reproductivo de los adultos, que repiten cada año un largo viaje para aparearse y para alimentar a sus crías. Es la única especie de pingüino que se reproduce durante el crudo invierno antártico, realizando caminatas de entre cincuenta y ciento veinte kilómetros sobre el hielo hasta las colonias de cría, que pueden incluir miles de individuos. La hembra pone un único huevo que es incubado inicialmente por el macho, mientras que ella regresa al mar para alimentarse; posteriormente los padres se turnan para alimentarse en el mar y el cuidado de sus polluelos en la colonia. Su esperanza de vida suele ser de unos veinte años en su hábitat natural, aunque hay datos que indican que algunos ejemplares pueden vivir hasta los cincuenta años de edad. </p>
+                &nbsp;
+            </div>
+        </div>  
+        <div id="rey" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Rey.png"  alt="Pinguino Rey foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Rey (<em>Aptenodytes patagonicus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino rey (<em>Aptenodytes patagonicus</em>) es una especie de ave de la familia de los pingüinos (Spheniscidae). Es el segundo pingüino más grande dentro de las 18 especies de pingüinos que existen en el mundo después del pingüino emperador (Aptenodytes forsteri). Es una ave que migra por su alimento desde islas subantárticas hasta aguas circumpolares antárticas.
+
+                    Se distribuye por las regiones circumpolares en el continente antártico, donde están las zonas de los vientos del oeste. Anida en la Bahía Inútil en la Isla Grande de Tierra del Fuego, en Chile y en las islas cercanas a América del Sur (como las Malvinas y las Georgias del Sur), África (Islas del Príncipe Eduardo e islas Crozet) y Oceanía (islas Kerguelen e isla Macquarie).
+                    
+                    La parte superior de su pecho, a la altura de la garganta, es de color naranja amarillento, bordeado por una línea negra, con la espalda tapizada de color gris, que baja hasta llegar a la cola. Su vientre es blanquecino, y su cabeza negra y armada de un pico largo, puntiagudo y parcialmente anaranjado. Sus patas están adaptadas para nadar en el agua.
+                </p>
+                    &nbsp;
+                </div>
+        </div> 
+        <div id="adelia" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Adelia.png"  alt="Pinguino de Adelia foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Adelia (<em>Pygoscelis adeliae</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>El pingüino de Adelia (<em>Pygoscelis adeliae</em>>) es, junto con el pingüino emperador, una de las dos únicas especies de pingüinos que viven en el continente antártico, propiamente. Esta especie es común a lo largo de toda la costa antártica e islas cercanas. En 1830, el explorador francés Dumont D'Urville lo bautizó en honor a su esposa, Adélie. La isla Ross alberga una colonia de aproximadamente medio millón de pingüinos de Adelia.
+
+                    Este pingüino tiene de 60 a 70 cm de longitud y alrededor de 4 kg de peso. Su rasgo distintivo es el anillo circular blanco que rodea el ojo y las plumas en la base del pico. Estas largas plumas ocultan la mayor parte del pico rojo. La cola es un poco más larga que las de otros pingüinos.
+                    
+                    Huevo de Pygoscelis adeliae, en el Museo de Toulouse.
+                    Los pingüinos de Adelia se reúnen en los lugares de reproducción en octubre. Sus nidos consisten en un grupo de piedras apiladas. Los machos llaman a las hembras con un ruido gutural bajo seguido de un fuerte llanto. Una hembra generalmente pone dos huevos de color pardo o verde. En diciembre, el mes más cálido en la Antártida (alrededor de -2 °C), el padre y la madre se alternan para incubar el huevo; uno va a buscar comida y el otro se queda a incubar el huevo. El padre que está incubando no come. En marzo, los adultos regresan al mar junto con su cría.
+                </p>
+                &nbsp;    
+                </div>
+        </div> 
+        <div id="barbijo" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Barbijo.png"  alt="Pinguino barbijo foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Barbijo (<em>Pygoscelis antarctica</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>El pingüino barbijo (<em>Pygoscelis antarctica</em>>) es una especie de pingüino que se encuentra en las Islas Sandwich del Sur, Antártida, las islas Orcadas del Sur, Shetland del Sur, Georgias del Sur, Isla Bouvet, Islas Balleny e Isla Pedro I. Su nombre viene de la delgada franja negra en la parte baja de la cabeza que lo hace ver como si trajera puesto un casco negro, haciéndolo uno de los pingüinos más fácilmente identificables. 
+                    Los pingüinos barbijo tienen una altura promedio de 72 cm y un peso de 3-5 kg, sin embargo su peso puede llegar a disminuir hasta los 3 kg en base al ciclo de crianza.
+
+                    Las aletas de los pingüinos barbijo adultos son negras con un borde blanco: los lados internos de las aletas son blancos. La cara de color blanco se extiende hasta detrás de los ojos, que son de color marrón rojizo; el mentón y la garganta también son blancos, mientras que el corto pico que poseen es de color negro. Las patas, fuertes, de color rosa, cortas y achatadas, le dan un característico estilo de anadear al caminar. El plumaje en blanco y negro del pingüino barbijo ayuda a camuflarlo en el agua de los depredadores, tales como las focas. Cuando el pingüino es observado desde arriba, la espalda negra del ave se mezcla con el agua de color oscura del fondo de mar, asimismo la parte inferior del ave se funde con el sol cuando se ve desde el fondo de mar.[cita requerida]
+
+                    En tierra construyen nidos circulares de piedras, y ponen alrededor de dos huevos, que son incubados alternadamente por el padre y la madre por turnos de cinco a diez días. Pueden también procrear sobre icebergs, aunque prefieren lugares sin hielo. Los huevos eclosionan después de treinta y cinco días, y los polluelos están cubiertos por una pelusa gris en la espalda y blanca en la parte frontal. Los polluelos permanecen en el nido durante un periodo de veinte a treinta días antes de entrar en la guardería de polluelos. Alrededor de los cincuenta o sesenta días de edad, mudan plumaje, consiguiendo la coloración adulta y se van al mar.
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="papua" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Papua.png"  alt="Pinguino Papua foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Gentoo o Papúa (<em>Pygoscelis papua</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>El pingüino juanito,pingüino papúa, pingüino gentú o pingüino de vincha (<em>Pygoscelis papua</em>) es una especie de ave esfenisciforme de la familia Spheniscidae. Es fácilmente identificable por su parche blanco en la parte alta de la cabeza detrás de los ojos. Los polluelos presentan espalda gris y zona frontal blanca. Los adultos alcanzan una estatura de 75 a 90 cm.Los pingüinos papúa son los pingüinos más veloces bajo el agua, alcanzando los 36 km/h.
+
+                    Los machos alcanzan un peso máximo de 8 kg justo antes de mudar el plumaje, y un peso mínimo de 5,5 kg justo antes del apareamiento. El peso máximo lo alcanzan las hembras también justo antes de mudar el plumaje y es de 7,5 kg, pero su peso baja a 5 kg durante la incubación de sus huevos.
+                    
+                    Los pingüinos juanito anidan en diversas islas subantárticas. Las colonias principales se encuentran en las islas Malvinas, Georgia del Sur y Kerguelen; poblaciones más pequeñas se encuentran en la isla Macquarie, isla Heard, islas Shetland del Sur y en la península Antártica. El total de población reproductiva se estima en más de trescientas mil parejas.
+                    
+                    Se reconocen dos subespecies; la típica Pygoscelis papua papua, que es mayor y subantártica, y Pygoscelis papua ellsworthi, que es más pequeña y que se reproduce desde las islas Shetland del Sur hasta la península Antártica.​</p>
+                    &nbsp;
+                </div>
+        </div> 
+        <div id="magallanes" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Magallanes.png"  alt="Pinguino de Magallanes foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Magallanes (<em>Spheniscus magellanicus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div>
+                &nbsp; 
+                <p>Los pingüinos de Magallanes reciben su nombre del explorador portugués Fernando de Magellanes, cuya tripulación los divisó por primera vez mientras navegaba por el extremo de América del Sur durante su histórico, y controvertido, intento por circunnavegar el mundo en 1519. El ave marina no voladora puede encontrarse tanto en el lado Atlántico como en el lado Pacífico del continente, principalmente en Argentina, Chile y las Islas Malvinas.
+
+                    El pingüino de Magallanes, una de las 18 especies de pingüinos del mundo, se distingue por su cuerpo negro y abdomen blanco, característica de tonalidades opuestas que le permite evitar a los depredadores mientras nada. Visto desde arriba, el negro de la parte trasera del pingüino se mezcla con el océano oscuro y, desde abajo, su vientre blanco se camufla con la luz del cielo. Los cuerpos de los pingüinos son ideales para nadar gracias a su forma aerodinámica que se estrecha en ambos extremos, sus patas palmeadas y sus aletas largas que los ayudan a remar. Las plumas oleosas también mantienen el calor en su cuerpo.
+                    
+                    Los pingüinos de Magallanes poseen marcas distintivas que los diferencian de sus parientes. Dos franjas negras recorren sus vientres blancos: una línea negra gruesa rodea sus cuellos mientras que otra línea de plumas negra forma un arco que va desde la parte más alta de sus pechos y baja hasta sus patas. Además, los pingüinos de Magallanes tienen una línea de plumas blanca que baja desde cada uno de sus ojos hasta el cuello. Al llegar allí se unen y forman una tira alrededor de este.</p>
+                    &nbsp;
+                </div>
+        </div> 
+        <div id="humboldt" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Humboldt.png"  alt="Pinguino Humboldt foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Humboldt (<em>Spheniscus humboldti</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>La población de pingüinos de Humboldt ha ido disminuyendo constantemente durante los últimos 50 años y solo quedan unas 6.000 parejas reproductoras. Las principales amenazas para su supervivencia incluyen una reducción en el suministro de alimentos debido a la pesca comercial y los efectos de los patrones climáticos periódicos de El Niño. Cuando las poblaciones de peces se reducen o las corrientes más cálidas empujan a los peces más lejos de la costa, los pingüinos deben nadar más lejos de las colonias para buscar comida. Para cuando regresen a los sitios de anidación, es posible que no puedan regurgitar la comida para los polluelos. Los pingüinos también se enredan en las redes de pesca y se ahogan. Una de las amenazas más importantes ha sido la reducción de los sitios de anidación disponibles debido a la recolección de guano como fertilizante. Perú ahora tiene límites a la extracción de guano en áreas protegidas de cría de pingüinos. La amenaza final es la depredación de los huevos y los polluelos susceptibles. Se están llevando a cabo proyectos de conservación para proteger a los pingüinos de Humboldt. El zoológico de Denver participa en el Programa de supervivencia de especies para criar estas aves en peligro de extinción en cautiverio para mantener la especie.
+                    Aunque los pingüinos de Humboldt viven en una región relativamente cálida frente a la costa de América del Sur, las aguas del océano más alejadas de la costa son frías. Los pingüinos tienen tres capas de plumas cortas que se superponen como tejas en un techo, lo que los hace impermeables. También tienen una capa de grasa bien definida que ayuda a mantenerlos calientes. Sin embargo, en la costa pueden hacer mucho calor. Tienen una extensa área de piel rosada desnuda en la base de sus picos que les ayuda a irradiar calor y refrescarse.
+                    Los pingüinos de Humboldt miden de 25 a 28 pulgadas (65 a 72 cm) de altura.
+                    Pesan de siete a 13 libras (3,6 a 5,8 kg).
+                    Tienen plumas negras en la espalda y plumas blancas en la parte delantera con una distintiva banda negra en forma de U en la parte delantera.
+                    Tienen un pico un poco más grande que otros pingüinos.
+                    Tienen manchas rosadas en las patas palmeadas y en la base del pico
+
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="galapagos" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Galapagos.png"  alt="Pinguino de Galapagos foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de las Galápagos (<em>Spheniscus mendiculus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino de las Galápagos (<em>Spheniscus mendiculus</em>) es una especie de ave de la familia Spheniscidae endémica de las islas Galápagos. Es la única especie de pingüino que vive en libertad al norte del ecuador. Puede sobrevivir debido a las temperaturas frías resultado de la corriente de Humboldt y las aguas frías de las grandes profundidades traídas por la corriente de Cromwell.
+                    El pingüino de las Galápagos mide 49 cm de largo y pesa 2,5 kg de media. Es la segunda especie de pingüinos más pequeños después del pingüino azul, es un ejemplo de enanismo insular. Los pingüinos de las Galápagos tienen la cabeza negra con un borde blanco que corre desde detrás del ojo, alrededor de las orejeras negras y la barbilla, para unirse en la garganta. Tienen la parte superior de un color negro grisáceo y la parte inferior blanquecina, con dos bandas negras en el pecho, extendiéndose la banda inferior por los flancos hasta el muslo. Los juveniles se diferencian en que tienen la cabeza totalmente oscura, gris a los lados y en la barbilla, y no tienen banda en el pecho. Los pingüinos hembra son más pequeños que los machos.
+                    Los pingüinos de las Galápagos se encuentran principalmente en la isla Fernandina y en la costa oeste de la isla Isabela, pero existen pequeñas poblaciones que se extienden por otras islas del archipiélago de las Galápagos.
+
+                    El 95% de los ejemplares del pingüino de Galápagos habita en las islas Isabela, y Fernandina, en la parte occidental del archipiélago, con el 5% restante en las islas Bartolomé, Santiago, Floreana, y Logie.
+                    Los pingüinos permanecen en el archipiélago. Se quedan cerca de la corriente de Cromwell durante el día, hasta que baja la temperatura para volver a tierra firme por la noche. Se alimentan de pequeños bancos de peces, principalmente de mújoles, de sardinas y, a veces, de crustáceos. Solo buscan comida por el día y generalmente en un radio de pocos kilómetros desde el lugar de nidificación. Dependen de las corrientes frías y llenas de nutrientes que les proporcionan alimento.
+
+                    La temperatura en las islas Galápagos se mantiene entre 15 °C y 28 °C. Durante la temporada de El Niño, los pingüinos dejan de nidificar porque la comida escasea: esto hace que las probabilidades para conseguir sacar adelante a la cría sean desfavorables comparadas con la probabilidad de morir en el intento. Por lo general, se reproducen cuando la temperatura de la superficie del mar está por debajo de 24 °C, lo que se traduce en más abundancia de comida. El fuerte sol es el principal problema para los pingüinos. Su principal medio de enfriamiento está en el agua, pero sufren otras adaptaciones del comportamiento a causa de todo el tiempo que han de pasar en tierra. Utilizan dos métodos de termorregulación en el clima más cálido de tierra firme. Uno de ellos es estirar sus aletas y doblar la espalda hacia adelante para evitar que el sol toque sus pies, ya que pueden eliminar calor a través de sus aletas gracias al flujo sanguíneo en estas últimas. También jadean, usando la evaporación para enfriar la garganta y las vías respiratorias. Los pingüinos de Galápagos protegen sus huevos y crías del caliente sol manteniéndolos en profundas grietas de las rocas.
+                    
+                    </p>
+                    &nbsp;
+            </div>
+        </div> 
+        <div id="ojosAmarillos" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Ojos Amarillos.png"  alt="Pinguino de ojos amarillos foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Ojos Amarillos (<em>Megadyptes antipodes</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino ojigualdo o de ojo amarillo, (<em>Megadyptes antipodes</em>), es una de las dos especies del género Megadyptes, junto con el extinto Megadyptes waitaha.
+
+                    Habita el sureste de Nueva Zelanda. Su distribución geográfica abarca la Isla del Sur de Nueva Zelanda, la Isla Stewart y los archipiélagos de Auckland y de Campbell, más al sur.
+
+                    Tiene un tamaño mediano, si lo comparamos con los pingüinos grandes como el pingüino rey y el pingüino emperador. El largo total es de 66 a 70 cm. El peso máximo es de 8 kg premuda. La característica principal para identificarlo son sus ojos amarillos. No presenta dimorfismo sexual de plumajes, los machos son algo mayores en tamaño que las hembras, los promedios del tamaño de la cabeza, el largo del pico y las patas en los machos demuestran ser 6 mm más grandes que en las hembras. La cabeza en los machos mide de 141 a 145 mm, mientras que en las hembras de 134 a 140 mm. El largo de las patas en los machos es de 129 a 134 mm, y en las hembras de 123 a 129 mm.
+
+                    Comienza a criar en agosto, anidando por parejas y no en colonias, como ocurre en el género Spheniscus. Son agresivos durante la temporada reproductiva. Son territoriales con un rango de acción de una hectárea por pareja. Se alimentan de peces y calamares.
+
+                    Construyen el nido entre la vegetación densa. Ponen uno o dos huevos, con intervalo de tres a cinco días. La incubación tarda 38 a 50 días. Alcanzan la madurez sexual al segundo año en el caso de las hembras, mientras los machos al tercero. La longevidad se estima en 22 años.
+
+                    La población total se estima en 6.000 individuos aproximadamente,de los cuales solo hay unas 1500 parejas capaces de criar, siendo considerado por BirdLife International como la especie de pingüino más rara del mundo.
+
+                    Entre los nombres comunes recibe la denominación de pájaro bobo ojiamarillo, pájaro bobo de ojo amarillo, pingüino de ojo amarillo, mientras que en inglés de lo denomina Yellow-eyed Penguin.
+                    
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="macaroni" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Macaroni.png"  alt="Pinguino Macaroni foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Macaroni (<em>Eudyptes chrysolophus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino macaroni (<em>Eudyptes chrysolophus</em>),(Longitud: 60 cm, Peso: 4,6-5,3 kg) tiene las partes dorsales del cuerpo de color negro y las ventrales blancas. Tiene crestas conspicuas de plumas amarillas y anaranjadas las que crecen desde un parche en la frente, a un centímetro detrás del pico y se extienden hacia atrás sobre los ojos. Pico robusto, varía desde el rojo al marrón, los ojos son de color rojo escuro y tiene una mancha de piel desnuda de color rosa desde la base del pico hasta los ojos. Las patas son de color rosado.
+                    La distribución global de esta especie incluye islas en los océanos Pacífico, Atlántico sur e Indico, principalmente entre las latitudes 46° y 65°S. En Chile, la especie se encuentra en la región de Magallanes y La Antártica Chilena. Se ha documentado su nidificación en 10 sitios, desde la isla Buenaventura (50°S) hasta las islas Diego Ramírez (56°S). Sitios que en la actualidad concentran cerca de 25.000 parejas (50.000 individuos maduros). 
+                &nbsp;                
+                </p>
+            </div>
+        </div> 
+        <div id="real" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Real.png"  alt="Pinguino Real foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Real (<em>Eudyptes schlegeli</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El Pingüino Real (<em>Eudyptes schlegeli</em>) es un ave que pertenece a la familia Spheniscidae que se caracteriza por presentar crestas de color naranja-amarillo. También es llamado Pingüino de Schlegel o de cara blanca.
+                    Estas aves son migratorias y se localizan principalmente en la isla Macquarie, ubicada entre Australia y la Antártida. En esa isla abundan rocas, pastos y arbustos pequeños, ideal para la temporada de crianza. Los pingüinos Reales se encuentran distribuidos un kilómetro tierra adentro. Las colonias más grandes de pingüino Real pueden contener hasta 500,000 parejas.
+                    El pingüino Real es muy confundido con la especie Macaroni y a simple vista puede resultar un poco confuso distinguir sus diferencias, sin embargo, una característica muy visible, pero que no puede observarse tan fácilmente, es el rostro blanco de la especie Real, a diferencia del Macaroni que lo tiene en color negro. El pingüino de Schlegel mide alrededor de 74 cm, las hembras pesan 4 kilos, mientras los machos son ligeramente más pesados con 4.5 kilos y poseen un pico más largo y grueso. Machos y hembras cuentan con penachos en tonos amarillos-naranjas que se distribuyen desde el centro de sus ojos hacia los lados de su cabeza. Todo el plumaje de su parte frontal es de color blanco y la parte dorsal es negra. Cuando extienden sus alas, puede notarse que son rosadas en su interior, al igual que sus patas. El pico es de color naranja rojizo y sus cuerpos son de apariencia robusta.
+                    Dentro de sus amenazas naturales se encuentran los skúas polares que atacan principalmente a los huevos y a las crías recién nacidas. Los desastres naturales también son causantes de la disminución de pingüinos reales en esa parte del mundo. En años pasados, el Eudyptes schlegeli era perseguido para sustraer sus aceites, sin embargo, esta medida ya no es practicada. En la actualidad quedan alrededor de 850.000 parejas de esta especie, por lo que se encuentran clasificadas como “Vulnerables” por la Unión Internacional para la Conservación de la Naturaleza (IUCN).
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="fiordo" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Fiordo.png"  alt="Pinguino de Fiordland foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Fiordland (<em>Eudyptes pachyrhynchus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino de Fiordland (<em>Eudyptes pachyrhynchus</em>),​ o tawaki en lengua maorí, es una especie de ave esfenisciforme de la familia Spheniscidae nativa de Nueva Zelanda. Como su nombre indica cría en la costa de Fiordland y las islas cercanas, así como en la isla Stewart.
+                    Tamaño mediano (55 cm de altura y 3,2 a 4,5 kg de peso). Cabeza, cuello y dorso negro azulado. Pecho y abdomen blancos. Patas y pies blanco rosado en la parte superior o anterior y marrón negruzco detrás de los tarsos y en las plantas. Cresta amarilla que comienza cerca de las fosas nasales, se extiende hacia atrás en sentido horizontal y cae detrás de los ojos. Las plumas de la cresta son más cortas que en los pingüinos de penacho amarillo y en los pingüinos de Snares. Ojos color marrón rojizo. Pico naranja amarronado separado de las plumas por una delgada tira de piel negra.
+                    
+
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="sur" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Sur.png"  alt="Pinguino penacho amarillo del sur foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Penacho Amarillo del sur (<em>Eudyptes chrysocome</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                   El  Pingüino de Penacho Amarillo del sur o saltarrocas austral  (<em>Eudyptes chrysocome</em>)  es de tamaño medio (2-3,8 Kg, 42 cm de altura). Los sexos son similares, pero las hembras son más pequeñas. Dorso, cabeza y cola gris azulada, después de la muda, volviéndose marrón con el tiempo. Partes inferiores blancas. Aletas dorsalmente negro azulado con bordes blancos, blancas ventralmente. Franja superciliar amarilla extendiéndose desde 1 a 2 cm por detrás de la mandíbula superior, horizontalmente por encima de los ojos. Pico naranja, iris rojo brillante, patas rosadas con planta negra.
+                   Esta especie se encuentra en un estado de conservación "vulnerable" debido a la desaparición de un 24% de su población en los últimos treinta años.
+                   Como su nombre indica, el pingüino de penacho amarillo austral se distingue por tener una ceja color amarillo brillante que se extiende hacia atrás. Anteriormente el nombre científico del pingüino de penacho amarillo era Eudyptes crestatus.
+
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="norte" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Norte.png"  alt="Pingüino de Penacho Amarillo del norte (Eudyptes moseleyi) foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Penacho Amarillo del norte (<em>Eudyptes moseleyi</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    
+                    Eudyptes moseleyi, denominado comúnmente pingüino saltarrocas norteño, o pingüino de penacho amarillo norteño, es un ave la cual era generalmente considerada una subespecie del pingüino de penacho amarillo, pero un estudio en 2006 ha demostrado evidencia de distinción con respecto a los dos taxones del grupo Eudyptes chrysocome.
+
+                    Un estudio publicado en 2009 indicó que su población mundial había disminuido un 90 % desde la década de 1950. Por esta razón, es clasificado como en peligro de extinción.
+                    Al haber disminuido enormemente las poblaciones de los 3 taxones que integran el complejo Eudyptes chrysocome (Forster 1781), sus relaciones taxonómicas adquirieron una importancia crucial en relación con los programas de conservación. La taxonomía del complejo es confusa. Algunos especialistas consideran que los tres taxones son subespecies. Algunos dividen al taxón del norte (E. moseleyi) de las formas del sur (E.c. chrysocome y E.c. filholi) las cuales se reproduce en el extremo sur de América del Sur, y en islas subantárticas de los océanos Índico y Pacífico. Sin embargo otros consideran a las tres como especies separadas. 
+                    E. moseleyi vive en aguas distintas que E. c. chrysocome y E. c. filholi, pues están separados por el «Frente Subtropical». Una investigación publicada en el año 2006 puso de manifiesto las diferencias morfológicas, vocales, y genéticas entre las dos poblaciones.​ Dataciones moleculares sugieren que la divergencia genética con el grupo del Sur puede haber sido provocada por un evento vicariante causado por un cambio en la posición del Frente Subtropical en la transición climática a mediados del Pleistoceno. El análisis de una parte de la región de control mitocondrial de un Eudyptes moseleyi encontrado en las islas islas Kerguelen ha demostrado que puede haber venido de la isla de Gough, a 6000 km de distancia, y que Eudyptes moseleyi y Eudyptes chrysocome son genéticamente independientes, aunque algunos individuos vagantes pueden arribar a las colonias de reproducción opuestas a su especie. Los taxónomos están comenzando a reconocer la separación.
+                    Todo el grupo se relaciona estrechamente con el pingüino de frente dorada (<em>Eudyptes chrysolophus</em>) y el pingüino real (<em>Eudyptes schlegeli</em>), el que sólo sería un morfo cromático de E. chrysolophus.
+                    Más del 99 % de su población nidifica en Tristán de Acuña y la isla de Gough, en el océano Atlántico Sur.
+
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="africano" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Africano.png"  alt="Pingüino Africano (Spheniscus demersus) foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Africano (<em>Spheniscus demersus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    
+                    El pingüino de El Cabo (<em>Spheniscus demersus</em>),también conocido como pingüino africano o de anteojos, es la única especie de pingüino que vive en el continente africano y una de las cuatro del género Spheniscus.
+
+                    En inglés es conocido también como jackass penguin debido a las vocalizaciones similares a las de un burro. 
+                    Se distribuyen a lo largo de las costas rocosas africanas ubicadas en el extremo sur, abarcando parte de Namibia, Sudáfrica e islas circundantes como Hollamsbird, Dassen, Dyer y otras veintiuna islas. Vive en colonias de numerosas parejas que se encuentran dentro de los 40 km cercanos a la costa.
+                    El pingüino africano posee un tamaño mediano y una apariencia robusta. Miden alrededor de 45 a 70 cm de altura y los ejemplares más grandes pueden pesar máximo 5 kg. El plumaje en su parte dorsal es de color negro al igual que sus alas y patas. A los costados contienen líneas blancas y de ese mismo color es la mayoría de su parte frontal, aunque esta viene acompañada de líneas y pequeñas manchas en color negro. Sus cabezas contienen ambos colores. La cara es en su mayoría negra y los ojos contienen un semicírculo superior en color blanco.
+
+                    Cuando son jóvenes, el plumaje tiene tonalidades grises-azuladas pero conforme maduran, alrededor de tres años, este se oscurece a negro. La combinación de blanco y negro les permite camuflarse de los depredadores tanto marinos como aéreos. El blanco ubicado en la parte inferior (cuando nadan) se camufla dentro del ambiente marino, y por lo contrario, el negro en la parte dorsal, no llama la atención de las aves que buscan presas.
+                    Esta especie de pingüino tiene un promedio de vida en estado salvaje de máximo veintisiete años, siendo en cautiverio un poco más larga. Los principales factores de mortalidad son por depredación, impacto humano y fenómenos naturales.
+
+                    Entre sus depredadores naturales se encuentran los lobos marinos, tiburones, orcas, mangostas y aves marinas que suelen alimentarse de huevos o crías.
+                    La población de pingüinos africanos disminuyó en un 90% durante el siglo xx, por lo que se tomaron medidas extremas para que esta especie no desaparezca. Se protegieron áreas marinas para que los pescadores no puedan entrar a las zonas y continúen acabando con la vida de estas aves.
+
+                    Esto no estaba sólo afectando el ciclo natural de este y otros animales que dependen de los pingüinos para alimentarse, sino también del turismo nacional que cada año recibe hasta seiscientos mil turistas que disfrutan de los hermosos paisajes acompañados de las grandes colonias de pingüinos africanos.
+                    El Spheniscus demersus estaba clasificado dentro de los grupos de animales en estado “Vulnerable”, sin embargo en el año 2010, se reclasificó a “especie en peligro de extinción”, ya que de doscientos mil ejemplares que había en el año 2000, solamente quedaban cincuenta y cinco mil. Si esta disminución no es controlada a tiempo, en 2026 el pingüino africano podría formar parte de la lista de los animales extintos.
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="cresta" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Sclateri.png"  alt="Pingüino de Cresta Erguida (Eudyptes sclateri) foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Cresta Erguida (<em>Eudyptes sclateri</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                        El pingüino de Sclater,  o pingüino de las Antípodas (<em>Eudyptes sclateri</em>) es una especie de pingüino del género Eudyptes, que se reproduce en archipiélagos subantárticos de Nueva Zelanda.Se reproduce en los archipiélagos de las islas Antípodas (de 2000 ha de superficie) y de las islas Bounty (de 100 ha de superficie), que pertenecen a Nueva Zelanda. Las pocas decenas de ejemplares de la isla Campbell ya no reproducen allí.
+
+                        Luego de la época reproductiva se interna nuevamente en aguas abiertas lejos de las islas, en áreas de invernada en gran parte desconocidas, pues los únicos registros son del estrecho de Cook y de la costa este de la isla Sur de Nueva Zelandia.
+                        Fueron encontrados ejemplares vagantes en las Malvinas, en Argentina, en Australia, y en la Antártida.
+                        Esta especie también fue registrada en 4 oportunidades en el archipiélago de las Malvinas, en una de ella nidificando. Se cree que la población que reproducía allí se perdió por absorción mediante hibridaciones con el abundante pingüino de penacho amarillo sudamericano (Eudyptes chrysocome chrysocome).
+                        Esta especie monotípica fue descrita originalmente por el ornitólogo neozelandés Walter Buller en el año 1888, bajo el mismo nombre científico. Su localidad tipo es: «Islas Auckland».
+
+                        Forma una superespecie con Eudyptes robustus y Eudyptes pachyrhynchus, además de habérsela considerado una raza de la última. El nombre científico . atratus se le ha aplicado anteriormente, pero fue oficialmente suprimido, debido a la confusión con E. robustus.
+                        Se trata de un pingüino de tamaño mediano a pequeño, con un largo de 50 a 70 cm y un peso de 2,5 a 6 kg. El macho es ligeramente más grande que la hembra. Dorsalmente esta especie tiene un color negro-azulado, mientras que las partes inferiores son blancas. Su característica principal son las dos crestas de color amarillo brillante que desde el sector sobre los ojos parten hacia atrás en forma de amplia y larga ceja erecta.
+
+                        Su denominación científica rinde tributo al zoólogo inglés Philip Lutley Sclater.
+
+                        Es una especie pelágica y solitaria luego de la época reproductiva, alimentándose en aguas abiertas sin aproximarse a las costas.
+
+                        Se cree que se alimenta principalmente de krill y calamares, como otras especies del mismo género.
+
+                        Su biología es poco estudiada. Anida en grandes colonias en muy pocas islas, las que poseen conformación rocosa.
+                        Este pingüino está catalogado como una especie en peligro de extinción en la Lista Roja de la UICN. Está amenazado por la notable disminución de su población, y por contar con un área de reproducción muy restringida, lo que la torna muy vulnerable a cambios locales.
+
+                        u población total fue estimada entre 130 000 y 140 000 ejemplares.
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="azul" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Zelanda.png"  alt="Pingüino Azul (Eudyptula minor) foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino Azul (<em>Eudyptula minor</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino azul (<em>Eudyptula minor</em>), conocido también como pingüino enano, pingüino pequeño o pingüino del hada, es la especie de pingüino más pequeña y vive en las costas de Nueva Zelanda y las islas Chatham, al igual que en el sur de Australia y Tasmania. También se ha visto en la chilena isla Chañaral en 1996, en la playa de Santo Domingo (el 16 de marzo de 1997), pero no está claro si estas aves se habían extraviado. También se ha sugerido que puede haber colonias aún por descubrir en la parte chilena de la Patagonia. Recientemente ha sido avistado un pingüino azul vivo en Namibia, en la isla Ichaboe, en abril de 2005. Hay muchas subespecies, pero una clasificación precisa de estas aún está siendo discutida.
+                    Tal y como su nombre indica, su plumaje tiene una coloración azul que los caracteriza.
+
+                    La talla habitual es de 40 centímetros de altura y un peso de aproximadamente un kilogramo. Viven todo el año en grandes colonias, con cada pareja formando un nido en el cual criar a sus polluelos, los cuales suelen nacer de dos en dos.
+
+                    Como todos los pingüinos, son aves adaptadas a la vida acuática, así que su alimentación consiste en pescado, calamares y otros pequeños animales marinos.
+
+                    Aunque no están en peligro de extinción en conjunto, las colonias en áreas con una actividad humana significativa están amenazadas por la polución y los animales salvajes.
+
+                    Los pingüinos azules suelen volver a sus colonias para alimentar a sus polluelos al anochecer; tienden a salir del mar en grupos pequeños para tener alguna defensa contra algunos depredadores que atacan a presas individuales.
+
+                    En Phillip Island, al sureste de Melbourne, se ha habilitado un área se oteo para permitir a los turistas ver el "desfile de los pingüinos" cada noche. Se han instalado luces para permitir a los visitantes ver, pero NO fotografiar a los pájaros interactuando en sus colonias, lo cual hacen sin el más mínimo interés en sus espectadores. Los pájaros, a los cuales la mayoría de turistas encuentran irresistiblemente encantadores, son la atracción turística más popular de Victoria. La Oamaru Blue Penguin Colony es el equivalente en Nueva Zelanda del "desfile de los pingüinos" de Phillip Island.
+                    Estas pequeñas aves acuáticas suelen tener muchos depredadores en las costas de Australia como el dingo, el cocodrilo marino, el tiburón blanco, el tiburón martillo, el tiburón mako, el tiburón tigre, la orca, la foca leopardo y el león marino.
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+        <div id="snares" class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagenes/especies/Snares.png"  alt="Pingüino de Snares (Eudyptes robustus) foto">
+                </div>
+                <div class="col">
+                    <h2>
+                        Pingüino de Snares (<em>Eudyptes robustus</em>)
+                    </h2>
+                </div>
+            </div>
+            <div> 
+                &nbsp;
+                <p>
+                    El pingüino de las Snares (<em>Eudyptes robustus</em>)  es una especie de ave esfenisciforme de la familia Spheniscidae nativa de Nueva Zelanda. La especie cría en las islas Snares, un grupo de islas al sur de las costas de la isla Sur. Es un pequeño pingüino con penachos amarillos, con una talla de entre 50–70 cm y un peso de 2,5–4 kg. Sus partes superiores son de color negro azulado y las inferiores blancas. Tiene unas marcadas listas superciliares amarillas que se prolongan en penachos a modo de plumeros. Tiene una zona de piel desnuda de color rosa en la base de su pico pardo rojizo.
+
+                    Este pingüino anida en colonias que van de pequeñas (10 nidos) a grandes (1200 nidos) situadas bajo la cubierta del bosque o en lugares abiertos. Las principales colonias se localizan en la isla Noreste, otras colonias se encuentran en la isla Broughton además de en los rocosos islotes de Western Chain. El pingüino de las Snares se alimenta principalmente de kril, complementando su dieta con pequeños peces y calamares. La especie se cataloga actualmente como vulnerable por la UICN debido a que su área de reproducción se limita a un reducido grupo de islas. La población actual se estima en unas 25.000 parejas reproductoras. 
+                    El pingüino de las Snares fue recolectado por primera vez en 1874 Frederick Wollaston Hutton y nombrado como atrata. Sin embargo Hutton perdió en el mar este espécimen mientras lo dibujaba con la ayuda de Emile Campbell-Browne, antes de que se realizara la identificación científica. Una descripción escrita por Hutton, con una ilustración de Keulemans, en la obra “A History of the Birds of New Zealand” de Buller indica que era el mismo pingüino descrito por Hutton. Sin embargo se produjo un debate sobre la clasificación de este pingüino debido a ligeras diferencias anatómicas entre los pingüinos de las Snares y la descripción e ilustración iniciales, y Oliver propuso con éxito que se clasificara como robustus en lugar de atratus.
+                    El pingüino de las Snares con frecuencia se compara con el pingüino de Fiordland (Eudyptes pachyrhynchus), que es miembro de su mismo género (Eudyptes). El pingüino de las Snares se distingue del de Fiordland porque este último no tiene piel desnuda en la base de su pico. Los pingüinos de las Snares tiene una coloración similar a otras especies de pingüinos, tiene la cabeza, espalda y aletas negras y el vientre blanco. Tiene listas superciliares amarillas que empiezan en la base del pico y se prolongan hasta unos penachos dirigidos hacia la parte posterior de la cabeza. Tiene un pico robusto de color pardo rojizo, bordeado por una pequeña zona de piel de color rosa claro sin plumas. us ojos suelen ser de color marrón rojizo intenso, aunque puede haber cierta variación individual. El patrón de color bajo las alas difiere entre individuos, por lo que no es una buena característica para la identificación de la especie. Este pingüino puede emitir una gran variedad de sonidos, que son difíciles de describir verbalmente pero que varían desde los siseos y gritos explosivos cuando se sienten amenazados a rebuznos y trompeteos que pueden escucharse a grandes distancias en el mar.
+                    El pingüino de las Snares debe su nombre al lugar donde cría, las islas Snares, que son un pequeño grupo de islas costeras al sur de la isla Sur de Nueva Zelanda. Aunque se sabe poco de su área de distribución y desplazamientos fuera de la estación de cría se cree que no migran demasiado lejos en invierno. Ocasionalmente aparecen en las costas de Tasmania, sur de Australia, las islas Chatham, isla Stewart, y las islas principales de Nueva Zelanda.
+                    La dieta del pingüino de las Snares se compone principalmente de kril de la especie Nyctiphanes australis, pequeños peces, y cefalópodos. Un estudió descubrió que aproximadamente el 60% de la masa contenida en el estómago de los pingüinos de las Snares Penguins consistía en kril, el 30% era pescado y alrededor del 10% eran cefalópodos. Los investigadores concluyeron que la cantidad de otolito de peces y picos de cefalópodos encontrados indicaban la importancia de este tipo de presas para los adultos cuando están en el mar. 
+                    Aunque los pingüinos de las Snares actualmente no están amenazados, están clasificados como especie vulnerable. Si surgiera una amenaza podría rápidamente esquilmar su población ya que sus lugares de cría se restringen a un pequeño grupo de islas. Entre las posibles amenazas se incluyen la introducción de nuevos depredadores, la sobrepesca alrededor de las islas que mermaran sus fuentes alimenticias, el calentamiento global que podría hacer que sus presas se trasladaran y la polución. El gobierno de Nueva Zelanda tiene puesta en marcha acciones para proteger sus hábitats de las islas Snares y sus zonas marinas de alimentación. 
+                </p>
+                &nbsp;
+            </div>
+        </div> 
+
+    </section>
+<!--
+    Invitacion -->
+
+<div class="text-center pt-5">
+    <p>Ahora que lo sabes todo sobre los pingüinos, te invitamos a probar tus conocimientos sobre ellos. </p>
+    &nbsp;
+    <div>
+        <a href="Test.html">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button" >Prueba tu conocimiento</button>
+                &nbsp;
+            </div>
+         </a>
+     </div>
+</div>
+</div>
+    <footer>
+        <a href="referencias.html">Referencias</a>
+    </footer>
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

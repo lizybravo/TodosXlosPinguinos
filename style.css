@@ -1,0 +1,198 @@
+body {
+  background-color: #dcf8ff;
+}
+
+#bannerSalvar {
+  padding: 30px;
+  text-align: center;
+}
+
+#bannerTest {
+  border: 10px;
+  padding: 50px;
+  text-align: center;
+  background-color: #cccccc;
+}
+
+#gallery .col-6 {
+  margin: 0 !important;
+  padding: 15px;
+}
+
+#gallery img {
+  width: 100%;
+}
+
+#gallery img:hover {
+  border: 10px solid #dcf8ff;
+}
+
+#carrusel img {
+  width: auto;
+  max-height: 600px;
+}
+
+#especies img {
+  height: 300px;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 15px;
+  padding: 15px;
+}
+
+#carrusel p {
+  font: size 200px !important;
+}
+
+
+/*test*/
+#testPing {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#testPing p {
+    
+  font: italic;
+  width: fit-content;
+  background-color: #fff;
+  margin: 40px auto;
+  border-radius: 60px;
+  box-shadow: 5px 5px 0 aqua;
+  padding: 20px 30px;
+}
+
+/* PANTALLA INICIO */
+#pantalla-inicial {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+#pantalla-inicial {
+  margin: 60px 0;
+}
+.btn {
+  border: none;
+  background-color: aquamarine;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  margin: 30px;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: aqua;
+}
+
+/* PANTALLA juego */
+#pantalla-juego {
+  display: none;
+}
+.pantalla-juego {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+.pantalla-juego img {
+  max-width: 400px;
+  width: 100%;
+}
+.opciones {
+  max-width: 400px;
+  margin: auto;
+}
+.opcion {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 400px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+.opcion .letra {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 35px;
+  border: 5px solid #fff;
+  position: relative;
+}
+.opcion .nombre {
+  background: #fff;
+  width: 100%;
+  font-size: 25px;
+  margin-left: 30px;
+  z-index: -2;
+  border-radius: 0 20px 20px 0;
+  padding: 7px 0 7px 30px;
+}
+/* clases que se aplicará cuando haya acertada la opcion  */
+.opcion .nombreAcertada {
+  background-color: yellowgreen;
+  color: #fff;
+}
+.opcion .letraAcertada {
+  background-color: yellowgreen;
+  color: #fff;
+}
+/* clases que se aplicaran cuando se equivoque en la opcion elegida */
+.opcion .nombreNoAcertada {
+  background-color: rgb(255, 90, 90);
+  color: #fff;
+}
+.opcion .letraNoAcertada {
+  background-color: rgb(255, 90, 90);
+  color: #fff;
+}
+
+/* PANTALLA final */
+#pantalla-final {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+}
+#pantalla-final #numCorrectas {
+  background-color:aqua;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+#pantalla-final #numIncorrectas {
+  background-color:rgb(255, 90, 90);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+footer :not(*Test.html) {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #cccccc;
+  text-align: center;
+}
+
