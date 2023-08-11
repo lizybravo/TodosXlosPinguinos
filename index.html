@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodosXlosPinguinos</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--nav bar-->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-md">
+              <a class="navbar-brand" href="index.html">Todos X los Pingüinos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse   clase"  id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Especies
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="Especies.html#emperador">Pingüino Emperador (Aptenodytes forsteri)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#rey">Pingüino Rey (Aptenodytes patagonicus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#adelia">Pingüino de Adelia (Pygoscelis adeliae)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#barbijo">Pingüino Barbijo (Pygoscelis antarctica)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#papua">Pingüino Gentoo o Papúa (Pygoscelis papua)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#magallanes">Pingüino de Magallanes (Spheniscus magellanicus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#humboldt">Pingüino de Humboldt (Spheniscus humboldti)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#galapagos">Pingüino de las Galápagos (Spheniscus mendiculus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#ojosAmarillos">Pingüino de Ojos Amarillos (Megadyptes antipodes)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#macaroni">Pingüino Macaroni (Eudyptes chrysolophus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#real">Pingüino Real (Eudyptes schlegeli)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#fiordo">Pingüino de Fiordland (Eudyptes pachyrhynchus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#sur">Pingüino de Penacho Amarillo del sur (Eudyptes chrysocome)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#norte">Pingüino de Penacho Amarillo del norte (Eudyptes moseleyi)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#africano">Pingüino Africano (Spheniscus demersus)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#cresta">Pingüino de Cresta Erguida (Eudyptes sclateri)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#azul">Pingüino Azul (Eudyptula minor)</a></li>
+                          <li><a class="dropdown-item" href="Especies.html#snares">Pingüino de Snares (Eudyptes robustus)</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="Especies.html">Ver todas</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Conservacion.html">Cómo ayudar</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Test.html">Haz el Test</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </div>
+<!-- carrusel-->
+    
+    <div id="carrusel" class="container">
+        <div class="text-center pt-5">
+            <h3>¿Sabías qué...</h3>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="text-center pt-10">
+                    <p>... los pingüinos son aves que no pueden volar?</p>
+                </div>
+                <img src="Imagenes/Banner/banner1.jpg" class="d-block w-100" alt="Imagen de pinguinos">
+                </div>
+              <div class="carousel-item">
+                <div class="text-center pt-10">
+                    <p>... los pingüinos emperador pueden medir hasta más de 1.2m?</p>
+                </div>
+                <img src="Imagenes/Banner/banner2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="text-center pt-10">
+                    <p>... los pingüinos pueden sumergirse hasta más de 500m de profundidad?</p>
+                </div>
+                <img src="Imagenes/Banner/banner3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="text-center pt-10">
+                    <p>...existen 18 especies de pingüinos?</p>
+                </div>
+                <img src="Imagenes/Banner/banner6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="text-center pt-10">
+                    <p>... naturalmente no hay pingüinos en el norte del planeta?</p>
+                </div>
+                <img src="Imagenes/Banner/banner4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="text-center pt-10">
+                    <p>... puedes probar tus conocimientos con nuestro <a href="test.html"  title="ir al test">test sobre pingüinos</a>?</p>
+                </div>
+                <img src="Imagenes/Banner/banner5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+<!--Gallery-->
+    <section id="gallery" class="container">
+        <div class="text-center pt-5">
+            <h2>Conoce a las especies de pingüinos</h2>
+            <p>Da clic en tu pingüino favorito para conocer mas sobre él.</p>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#emperador" title="Pingüino Emperador (Aptenodytes forsteri)">
+                    <img src="Imagenes/especies/Emperador.png" alt="Pingüino Emperador (Aptenodytes forsteri) foto">
+               </a>
+            </div>             
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#rey" title="Pingüino Rey (Aptenodytes patagonicus)">
+                    <img src="Imagenes/especies/Rey.png" alt="Pingüino Rey (Aptenodytes patagonicus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#adelia" title="Pingüino de Adelia (Pygoscelis adeliae)">
+                    <img src="Imagenes/especies/Adelia.png" alt="Pingüino de Adelia (Pygoscelis adeliae) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#barbijo" title="Pingüino Barbijo (Pygoscelis antarctica)">
+                    <img src="Imagenes/especies/Barbijo.png" alt="Pingüino Barbijo (Pygoscelis antarctica) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#papua" title="Pingüino Gentoo o Papúa (Pygoscelis papua)">
+                    <img src="Imagenes/especies/Papua.png" alt="Pingüino Gentoo o Papúa (Pygoscelis papua) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#magallanes" title="Pingüino de Magallanes (Spheniscus magellanicus)">
+                    <img src="Imagenes/especies/Magallanes.png" alt="Pingüino de Magallanes (Spheniscus magellanicus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#humboldt" title="Pingüino de Humboldt (Spheniscus humboldti)a">
+                    <img src="Imagenes/especies/Humboldt.png" alt="Pingüino de Humboldt (Spheniscus humboldti) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#galapagos" title="Pingüino de las Galápagos (Spheniscus mendiculus)">
+                    <img src="Imagenes/especies/Galapagos.png" alt="Pingüino de las Galápagos (Spheniscus mendiculus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#ojosAmarillos" title="Pingüino de Ojos Amarillos (Megadyptes antipodes)">
+                    <img src="Imagenes/especies/Ojos Amarillos.png" alt="Pingüino de Ojos Amarillos (Megadyptes antipodes) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#macaroni" title="Pingüino Macaroni (Eudyptes chrysolophus)">
+                    <img src="Imagenes/especies/Macaroni.png" alt="Pingüino Macaroni (Eudyptes chrysolophus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#real" title="Pingüino Real (Eudyptes schlegeli)">
+                    <img src="Imagenes/especies/Real.png" alt="Pingüino Real (Eudyptes schlegeli) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#fiordo" title="Pingüino de Fiordland (Eudyptes pachyrhynchus)">
+                    <img src="Imagenes/especies/Fiordo.png" alt="Pingüino de Fiordland (Eudyptes pachyrhynchus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#sur" title="Pingüino de Penacho Amarillo del sur (Eudyptes chrysocome)">
+                    <img src="Imagenes/especies/Sur.png" alt="Pingüino de Penacho Amarillo del sur (Eudyptes chrysocome) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#norte" title="Pingüino de Penacho Amarillo del norte (Eudyptes moseleyi)">
+                    <img src="Imagenes/especies/Norte.png" alt="Pingüino de Penacho Amarillo del norte (Eudyptes moseleyi) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#africano" title="Pingüino Africano (Spheniscus demersus)">
+                    <img src="Imagenes/especies/Africano.png" alt="Pingüino Africano (Spheniscus demersus) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#cresta" title="Pingüino de Cresta Erguida (Eudyptes sclateri)">
+                    <img src="Imagenes/especies/Sclateri.png" alt="Pingüino de Cresta Erguida (Eudyptes sclateri) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#azul" title="Pingüino Azul (Eudyptula minor)">
+                    <img src="Imagenes/especies/Zelanda.png" alt="Pingüino Azul (Eudyptula minor) foto">
+               </a>
+            </div> 
+            <div class="col-6 col-md-3 col-xl-2">
+                <a href="Especies.html#snares" title="Pingüino de Snares (Eudyptes robustus)">
+                    <img src="Imagenes/especies/Snares.png" alt="Pingüino de Snares (Eudyptes robustus) foto">
+               </a>
+            </div> 
+
+        </div>
+    </section>
+<!--Conservation banner-->
+    <section>
+       <div id="bannerSalvar">
+            <div>
+                <h2>¿Cómo podemos salvar a los pingüinos?</h2>
+                 <p>Entérate sobre cómo podemos ayudarlos:</p>
+             </div >
+             <div>
+                <div>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tbbd1RjU9Uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 </div>
+                 <div >
+                    <a href="Conservacion.html">
+                        <div>
+                            <button class="btn btn-primary" type="button" >Salvar a los pingüinos</button>
+                        </div>
+                     </a>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <section>
+    <div id="bannerTest">
+     <div >
+         <h2>¿Qué tan bueno eres reconociendo pingüinos?</h2>
+         <p>Entérate cuánto sabes sobre pinguinos</p>
+         
+     <div>
+        <a href="Test.html">
+            <div>
+                <button class="btn btn-primary" type="button" >Prueba tu conocimiento</button>
+            </div>
+         </a>
+     </div>
+     </div>
+    </div>
+    </section>
+
+
+    <footer>
+        <a href="referencias.html">Referencias</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
