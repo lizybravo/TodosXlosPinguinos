@@ -1,0 +1,267 @@
+a {
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+
+}
+img {
+    width: 150px;
+}
+h1 {
+    font-size: 34px;
+    color: rgb(35,35,72);
+    font-family: 'Gill Sans', 'Gill Sana MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size: 20px;
+    color: rgb(35,35,72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#donar{
+    background-color: #E2E04F;
+    border-radius: 10%;
+}
+
+.presentacion{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.presentacion img{
+    width: 100%;
+}
+
+.presentacion p{
+    width: 90%;
+    padding: 10px;
+    font-size: 60px;
+    color: black;
+}
+
+
+#inscripciones {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#inscripciones h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.galeriaInscripciones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.galeriaInscripciones p{
+    font-size: 15px;
+}
+.galeriaInscripciones a{
+    
+    text-decoration: none;
+}
+
+.taller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#E2E04F;
+    margin: 2%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taller:hover{
+    background-color:#2CAAB6 ;
+}
+
+.taller img {
+    width: 100%;
+}
+.taller p{
+    font-size: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(201, 201, 201);
+    
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img:not(#impactoja){
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #2CAAB6;
+}
+
+.caja button{
+    width: 80%;
+    margin: 10px;
+}
+
+#impactoja{
+    width: 100%;
+    margin: 10px;
+}
+
+.caja p{
+    font-size: 14px;
+}
+
+.caja h1{
+    margin: 20px;
+}
+
+#resultados {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#resultados h2{
+    margin: 10PX;
+    font-size: 40px;
+
+}
+
+#resultados a:hover{
+    background-color: #E2E04F;
+    border: 5px solid #E2E04F;
+}
+
+
+.resultadocifra {
+    font-size: 60px;
+    color: #2CAAB6;
+}
+
+.resultadodesc{
+    font-size: 35px;
+}
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #E2E04F;
+    margin: 20px;
+}
+#nosotros h2{
+    margin: 10PX;
+    font-size: 40px;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+#sumate{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    background-color:#074f61;
+    width: 100%;
+    padding: 20px;
+}
+
+#sumate h2{
+    color: white;
+    margin: 10PX;
+    font-size: 40px;
+    margin: 15px;
+}
+
+.sumatecont {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#074f61;
+    width: 100%;
+}
+.sumar {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sumar a:hover{
+    background-color: #E2E04F;
+    border: 5px solid #E2E04F;
+}
+
+#bienestar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#bienestar div{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+#bienestar p{
+    font-size:30px;
+}
+
+footer{
+    background-color:  rgb(201, 201, 201);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
